@@ -15,8 +15,9 @@ def age_appropriate_birthday(birthday_kids)
  birthday_kids.each do |kids_name, age|
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
     if birthday_kids == :Amanda && name.start_with?(27)
-      name = age 
+     
     puts  "You are too old for this."
+    name = age 
    end 
 
   end 
