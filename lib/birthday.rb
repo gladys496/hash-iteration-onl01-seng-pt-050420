@@ -12,10 +12,10 @@ end
 
 
 def age_appropriate_birthday(birthday_kids)
-  if birthday_kids.collect do |kids_name, age|
+ birthday_kids.collect do |kids_name, age|
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
-    else  age > 12
-    print "You are too old for this."
+    if age > 12
+     "You are too old for this."
    end 
   end 
 end 
